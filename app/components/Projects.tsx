@@ -109,6 +109,19 @@ export default function Projects() {
       ],
     },
     {
+      title: "DeskWebLib",
+      description:
+        "Developed and published a custom hybrid automation library for Robot Framework, enabling seamless automation of both web and desktop applications. DeskWebLib integrates Web keywords for browser interactions and Desktop keywords for image-based desktop automation. Designed to simplify complex end-to-end test scenarios in cross-platform environments.",
+      image: "/images/DeskWebLib.png",
+      technologies: ["Python", "Robot Framework", "Selenium", "PyAutoGUI"],
+      features: [
+        "Hybrid automation library combining Selenium for web UI and PyAutoGUI for desktop (image-based) automation.",
+        "Simplifies end-to-end automation for desktop and web apps within Robot Framework test suites",
+        "Supports launching applications, simulating user interactions, and handling browser actions with minimal boilerplate.",
+        "Published to PyPI and installable via pip install DeskWebLib.",
+      ],
+    },
+    {
       title: "Gigsumo Job Portal(Mavensi Softech Solutions)",
       description:
         "Designed and developed a modular, scalable web application for job seekers and employers. This comprehensive job portal facilitated job postings, applications, and employer-candidate interactions.",
